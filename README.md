@@ -1,10 +1,13 @@
-# Task Manager App
+# Task-Manager
+Simple web application written in Angular used for adding, editing and removing tasks using mongoDB database.
 
-[![Application Design Illustration](App_Illustration.png)](https://www.youtube.com/watch?v=V-CeWkz1MNQ&list=PLIjdNHWULhPSZFDzQU6AnbVQNNo1NTRpd)
+# How to Install and Run the Project
+To run the project you need to download it and have the node.js installed. After that enter the project folder and run the following commands:
+- npm install -g @angular/cli
+- npm install on both api and frontend folders
+- install and run mongoDB
+- nodemon app.js in the api folder
+- ng serve -o in the frontend folder
 
-##### Watch the full tutorial on [Youtube](https://www.youtube.com/watch?v=V-CeWkz1MNQ&list=PLIjdNHWULhPSZFDzQU6AnbVQNNo1NTRpd)! 
-
-##### This repository contains the code for both the Angular frontend application as well as the NodeJS API. 
-
-> Don't forget to run `npm install` in both the **api** and **frontend** folders to install dependencies
-
+# How to Use the Project
+First you have to create your account, then create a list of future tasks and after that you can freely manage the tasks.
